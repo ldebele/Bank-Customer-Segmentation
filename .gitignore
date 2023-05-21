@@ -1,0 +1,9 @@
+# Byte-compile
+__py_cache__/
+
+# jupyter checkpoints.
+.ipynb.checkpoints
+
+# data set
+data/bank_transactions.csv.zip
+
