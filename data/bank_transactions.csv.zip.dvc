@@ -1,0 +1,4 @@
+outs:
+- md5: 68ded3b7ea03721bbb92800a1591cf16
+  size: 25360448
+  path: bank_transactions.csv.zip

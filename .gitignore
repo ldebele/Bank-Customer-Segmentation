@@ -5,5 +5,5 @@ __py_cache__/
 .ipynb.checkpoints
 
 # data set
-data/bank_transactions.csv.zip
+# data/bank_transactions.csv.zip
 
