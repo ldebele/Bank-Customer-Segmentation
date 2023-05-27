@@ -1,5 +1,5 @@
 # Byte-compile
-__py_cache__/
+notebooks/__pycache__/
 
 # jupyter checkpoints.
 .ipynb.checkpoints
