@@ -1,2 +1,5 @@
 [core]
     autostage = true
+    remote = kaggle
+['remote "kaggle"']
+    url = https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation/download?datasetVersionNumber=1

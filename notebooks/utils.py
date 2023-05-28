@@ -1,5 +1,8 @@
 # Import libraries
+import seaborn as sns
 import plotly.express as px
+import matplotlib.pyplot as plt
+
 
 
 # Remove outliers 
@@ -22,3 +25,14 @@ def plot_boxplot(data, x, title="title", x_axis="x", y_axis="y"):
     fig.update_layout(xaxis_title=x_axis)
     
     return fig
+
+def sns_lineplot(x, y, title="title", xlabel="x-axis", ylabel="y-axis"):
+    fig = sns.lineplot(
+        x=x,
+        y=y
+    )
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    # return fig
